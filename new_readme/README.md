@@ -1,4 +1,4 @@
-# test
+# README Generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,30 +14,30 @@
   
   ## Description
   
-  test
+  A simple README Generator app for developers
   
   ## Installation
   
   To install the dependencies for this project, run the following command:
   
   ```
-  npm i
+  npm install 
   ```
   
   ## Usage
   
-  test
+  Download all necessary dependencies
   
   ## Contributing
   
-  test
+  Expand the info collected
   
   ## Tests
   
   To run tests on this project, use the following command:
   
   ```
-  test
+  npm test
   ```
   
   ## License
@@ -48,6 +48,6 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
   
   For any questions or inquiries, please contact me via GitHub or email:
   
-  [GitHub](https://github.com/test)
+  [GitHub](https://github.com/adam-brannon09)
   
-  [Email](test)
+  [Email](adam.brannon09@gmail.com)
