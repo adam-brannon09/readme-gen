@@ -12,15 +12,11 @@ const questions = [
         type: 'input',
         message: 'What is the name of your project?',
     },
-    {
-        name: 'contents',
-        type: 'input',
-        message: "List the Contents of your repo's README.",
-    },
+    
     {
         name: 'description',
         type: 'input',
-        message: 'Please write a detailed description of your project',
+        message: 'Please write a detailed description of your project:',
     },
     {
         name: 'installation',
@@ -37,7 +33,7 @@ const questions = [
     {
         name: 'usage',
         type: 'input',
-        message: 'What info does the user need about using your repo?',
+        message: 'Enter instructions on how to use your project:',
     },
     {
         name: 'contribute',
@@ -68,14 +64,15 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(path.join(process.cwd(), fileName), data);
-    console.log('README.md has been generated!');
 }
 
 // TODO: Create a function to initialize app
 function initialize() {
     inquirer.prompt(questions).then((answers) => {
         const markdownContent = generateMarkdown(answers);
-        writeToFile('READMENEW.md', markdownContent);
+        writeToFile('./new_readme/README.md', markdownContent);
+        console.log(markdownContent);
+        console.log('Your new README.md has been generated!');
       });
 }
 
