@@ -25,6 +25,7 @@ To install this application, please follow the below instructions:
 - Follow the prompts to generate your README.md file.
 - Once complete, a README.md file will be generated!
 ![alt text](./assets/prompts.png)
+[Check Out the Video Demo!](https://drive.google.com/file/d/1ryuU-_e8MEytOLMoqd7QqLzJ6MlMaoQb/view)
 
 
 ## Contributors
